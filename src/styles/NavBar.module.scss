@@ -1,0 +1,25 @@
+.NavBar {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: 1rem;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 4.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  z-index: 5;
+  border-bottom: solid var(--navbar-border-color) 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  a.Home {
+    margin-right: auto;
+    font-size: 2rem;
+    transition: color 0.1s;
+    // cursor: pointer;
+  }
+  a.Home:hover {
+    color: var(--navbar-home-hover);
+  }
+}
